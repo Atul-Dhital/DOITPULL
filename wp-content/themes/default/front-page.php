@@ -32,7 +32,7 @@ the_post();
                         <div class="slider__slide">
                             <svg class="icon icon-leftArrow">
                                 <use xlink:href="#icon-leftArrow"></use>
-                            </svg>
+                            </svg>  
                             <svg class="icon icon-rightArrow">
                                 <use xlink:href="#icon-rightArrow"></use>
                             </svg>
