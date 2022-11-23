@@ -1,0 +1,115 @@
+.news {
+  background-color: $primary-text;
+  padding: 80px 0;
+  .container {
+    display: flex;
+    gap: 30px;
+    @media #{$header} {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.news__left {
+  width: 65.9%;
+}
+
+.news__lists {
+  border-bottom: 1px solid $tertiary-alt;
+  display: flex;
+  gap: 41px;
+  padding-bottom: 12px;
+  @media only screen and (max-width: 500px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .news__btn {
+    font-family: $primary-family;
+    font-weight: 600;
+
+    line-height: 0.82;
+    text-transform: uppercase;
+    color: $white;
+  }
+  button:hover {
+    text-decoration: underline 3px;
+    text-underline-offset: 12px;
+  }
+  button.active {
+    text-decoration: underline 3px;
+    text-underline-offset: 12px;
+  }
+}
+
+.news__contents {
+  font-family: $primary-family;
+  font-weight: 500;
+
+  color: $white;
+  opacity: 0.9;
+  margin-top: 40px;
+}
+
+.news__link {
+  a {
+    font-family: $primary-family;
+    font-weight: 500;
+
+    color: $primary-alt;
+
+    &:hover {
+      color: $quaternary;
+    }
+  }
+  svg {
+    transform: rotate(-90deg);
+    width: 12px;
+    height: 8px;
+    margin-left: 8px;
+  }
+}
+
+.news__right {
+  width: 31.8%;
+  @media #{$header} {
+    width: 100%;
+    margin-bottom: 30px;
+  fieldset {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: center;
+    padding: 40px 30px 37px;
+
+    legend {
+      padding: 3px 31px;
+      background-color: $white;
+      font-family: $primary-family;
+      font-weight: 600;
+      line-height: 0.82;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: $primary-text;
+    }
+  }
+}
+
+.news__data {
+  font-family: $primary-family;
+  font-weight: 600;
+
+  letter-spacing: -0.2px;
+  color: $white;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  text-align: left;
+  .news__title {
+    font-weight: 400;
+
+    line-height: 0.82;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    margin-bottom: 5px;
+  }
+}
+}

@@ -1,0 +1,64 @@
+// Sizes
+$base-font-size: 16px;
+$ratio: 1.414;
+$container: 1290px;
+$site-width: 1354px;
+
+// Colors
+$black: #000000;
+$white: #ffffff;
+$primary: #0040BF;
+$primary-alt: #6299FF;
+$primary-text: #1B2334;
+$secondary: #F8F8F8;
+$secondary-alt: #D8D8D8;
+$tertiary: #2B3852;
+$quaternary: #62FFA9 ;
+$alt:  #575d91 ;
+$black-dark: #091115;
+$tertiary-alt: #979797;
+
+// Fonts
+$primary-family: 'Inter', sans-serif;
+
+// Media Queries
+$tablet-width: 768px;
+$phone-width: 450px;
+$header-width: 960px;
+
+$desktop: 'screen and (max-width: #{$container})';
+$tablet: 'screen and (max-width: #{$tablet-width})';
+$phone: 'screen and (max-width: #{$phone-width})';
+$header: 'screen and (max-width: #{$header-width})';
+
+// Transition
+$transition: all 0.25s ease-in;
+
+// Social Colors Guys, Social Colors
+$twitter: #00aced;
+$facebook: #3b5998;
+$linkedin: #007bb6;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$youtube: #bb0000;
+$vimeo: #aad450;
+$tumblr: #32506d;
+$instagram: #517fa4;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+$github: #703083;
+
+// Functions
+@function trem( $px_value ) {
+    @return ( $px_value / $base-font-size ) + rem;
+}
+
