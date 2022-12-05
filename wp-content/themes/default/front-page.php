@@ -21,7 +21,7 @@ the_post();
                         </div>
                     </div>
                     <figure class="slider__media">
-                        <img src="<?php echo get_template_directory_uri() ?>/uploads/kpbaa.jpg" alt="image of kp oli" />
+                        <img src="<?php echo get_template_directory_uri() ?>/uploads/kp.jpg" alt="image of kp oli" />
                     </figure>
                 </div>
                 <div class="slider">
