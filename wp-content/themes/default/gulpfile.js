@@ -24,7 +24,7 @@ gulp
 
 // Config for theme
 var themePath = './';
-var projectURL = 'http://doit.loc';
+var projectURL = 'http://doitpull.loc';
 
 // Browsersync
 const browserSync = require('browser-sync').create();

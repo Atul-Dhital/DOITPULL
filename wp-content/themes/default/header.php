@@ -84,9 +84,9 @@
                             <div class="header-info">
                                 <p>Screen Reader</p>
                                 <div class="header-info__list">
-                                    <a href="#">-</a>
-                                    <span>A</span>
-                                    <a href="#">+</a>
+                                    <button href="#" id="up">-</button>
+                                    <span id='test' >A</span>
+                                    <button href="#" id="down">+</button>
                                 </div>
                             </div>
                             <div class="header-language">

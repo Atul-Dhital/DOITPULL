@@ -7,7 +7,7 @@
     align-items: center;
     @media #{$phone} {
       display: grid;
-      grid-template-columns: 1fr 1fr ;
+      grid-template-columns: 1fr ;
       gap:20px
     }
     .gallery__title {
@@ -44,7 +44,16 @@
   max-width: $container;
   width: 100%;
   justify-content: space-between;
-
+  @media #{$phone} {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap:20px
+  }
+  @media #{$tablet} {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:20px
+  }
   .gallery__media {
     img {
       max-width: 242px;

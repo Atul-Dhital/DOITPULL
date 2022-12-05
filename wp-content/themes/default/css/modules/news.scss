@@ -1,11 +1,14 @@
 .news {
   background-color: $primary-text;
+  width: 100%;
   padding: 80px 0;
   .container {
     display: flex;
     gap: 30px;
     @media #{$header} {
-      flex-direction: column-reverse;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
@@ -75,6 +78,7 @@
   @media #{$header} {
     width: 100%;
     margin-bottom: 30px;
+  }
   fieldset {
     border: 1px solid rgba(255, 255, 255, 0.25);
     text-align: center;
@@ -91,25 +95,24 @@
       color: $primary-text;
     }
   }
-}
 
-.news__data {
-  font-family: $primary-family;
-  font-weight: 600;
+  .news__data {
+    font-family: $primary-family;
+    font-weight: 600;
 
-  letter-spacing: -0.2px;
-  color: $white;
-  opacity: 0.9;
-  margin-bottom: 30px;
-  text-align: left;
-  .news__title {
-    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: $white;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    text-align: left;
+    .news__title {
+      font-weight: 400;
 
-    line-height: 0.82;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    opacity: 0.75;
-    margin-bottom: 5px;
+      line-height: 0.82;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      opacity: 0.75;
+      margin-bottom: 5px;
+    }
   }
-}
 }

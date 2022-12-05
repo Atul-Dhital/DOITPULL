@@ -26,9 +26,7 @@
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Major Programs</a></li>
                         </ul>
-
                     </div>
-
                 </div>
 
             </div>

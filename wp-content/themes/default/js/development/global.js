@@ -26,3 +26,17 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+var increment = document.getElementById('up'),
+  decrement = document.getElementById('down'),
+  fsize = document.getElementById('test'),
+  step = 2;
+
+fsize.style.fontSize = '30px';
+
+increment.onclick = function () {
+  fsize.style.fontSize = parseInt(fsize.style.fontSize) + step + 'px';
+};
+
+decrement.onclick = function () {
+  fsize.style.fontSize = parseInt(fsize.style.fontSize) - step + 'px';
+};
