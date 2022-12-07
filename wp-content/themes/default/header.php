@@ -59,6 +59,8 @@
 
             <div class="header-nav">
                 <div class="header-top">
+                    <input type="text" id="currentDate">
+                   
                     <div class="header-menu">
                         <div class="header-socialmedia">
                             <ul class="header-socialmedia__list">
